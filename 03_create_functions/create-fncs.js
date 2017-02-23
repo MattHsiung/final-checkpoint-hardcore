@@ -1,0 +1,1 @@
+const createFunctions = n => !n ? [] : createFunctions(--n).concat(() => n);
